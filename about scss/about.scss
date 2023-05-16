@@ -1,0 +1,93 @@
+
+.mainaboutimg {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	margin: 20px 0 20px 0;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+h1 {
+	text-align: center;
+}
+.maindiller {
+	max-height: 6000px;
+	p {
+		font-size: 20px;
+		text-align: center;
+	}
+}
+.image-container {
+	margin-right: 10px;
+	margin-left: 10px;
+	img {
+		width: 450px;
+		height: 350px;
+	}
+	p {
+		text-align: center;
+	}
+}
+.filosof {
+	text-align: center;
+}
+.main333 {
+	margin: 20px 0 20px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	justify-content: space-around;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	img {
+		height: 300px;
+		width: 300px;
+		margin: 10px;
+	}
+}
+.main3333 {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	width: 100%;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 20px 0 20px 0;
+	img {
+		height: 400px;
+		width: 700px;
+	}
+}
+.mainblackporscheabout {
+	max-width: 1000px;
+}
+@media(max-width:950px) {
+	.main3333 {
+		img {
+			margin: 10px;
+			width: 300px;
+			height: 150px;
+		}
+	}
+	.mainaboutimg {
+		img {
+			margin: 10px;
+			width: 250px;
+			height: 200px;
+		}
+	}
+}

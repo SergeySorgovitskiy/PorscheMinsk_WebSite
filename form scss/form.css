@@ -1,0 +1,117 @@
+.contact-form {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  margin: 85px;
+}
+.contact-form label {
+  color: black;
+  margin-bottom: 10px;
+}
+.contact-form .heading {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 12px;
+  font-weight: bold;
+  display: block;
+}
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contact-form input:focus {
+  outline: none;
+  box-shadow: 0 0 5px #000000;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+.contact-form textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px #000000;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+.contact-form button[type=submit] {
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contact-form button[type=submit]:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.imgform1 {
+  width: 500px;
+  height: 500px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.imgform2 {
+  width: 500px;
+  height: 500px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.main44 {
+  display: flex;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.imgform12 {
+  width: 30%;
+}
+
+.imgform22 {
+  width: 30%;
+}
+
+@media (max-width: 1000px) {
+  .contact-form {
+    width: 50%;
+    margin: 0;
+  }
+  .main44 {
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+  .imgform12 {
+    display: none;
+  }
+  .imgform22 {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .contact-form {
+    width: 80%;
+    margin: 0;
+  }
+  .main44 {
+    margin-bottom: 50px;
+  }
+}/*# sourceMappingURL=form.css.map */

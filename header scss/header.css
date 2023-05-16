@@ -1,0 +1,166 @@
+html {
+  box-sizing: border-box;
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+  margin: 0px;
+  padding: 0px;
+}
+
+.top-nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: #FFF;
+  height: 80px;
+  padding: 1em;
+  z-index: 999;
+  background: black;
+  border-bottom: 2px solid white;
+}
+.top-nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-nav .logo h2 a {
+  font-size: 23px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+}
+.top-nav .menu {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.top-nav .menu a {
+  width: 100px;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  transition: color 0.2s ease-in-out;
+  margin: 0 50px 0 50px;
+}
+.top-nav .menu a:hover {
+  color: white;
+}
+.top-nav .menu > li {
+  margin: 0 0.4rem;
+  overflow: hidden;
+}
+.top-nav .menu-button-container {
+  display: none;
+  height: 100%;
+  width: 30px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.top-nav #menu-toggle {
+  display: none;
+}
+.top-nav .menu-button {
+  display: block;
+  background-color: white;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+.top-nav .menu-button:after {
+  display: block;
+  background-color: white;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+.top-nav .menu-button:before {
+  display: block;
+  background-color: white;
+  position: absolute;
+  height: 4px;
+  width: 30px;
+  transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+  content: "";
+  margin-top: -8px;
+}
+.top-nav .menu-button:after {
+  content: "";
+  margin-top: 8px;
+}
+.top-nav #menu-toggle:checked + .menu-button-container .menu-button {
+  background: white;
+}
+
+li {
+  display: flex;
+  align-items: center;
+}
+
+.top-nav img {
+  width: 60px;
+}
+
+@media (max-width: 800px) {
+  .top-nav div.logo {
+    height: 100px;
+  }
+  .top-nav img {
+    display: none;
+  }
+  .top-nav .menu-button-container {
+    display: flex;
+    z-index: 999;
+  }
+  .top-nav .menu {
+    position: absolute;
+    top: 0;
+    margin-top: 70px;
+    left: 0;
+    z-index: 999;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: black;
+  }
+  .top-nav #menu-toggle ~ .menu li {
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .top-nav #menu-toggle:checked ~ .menu li {
+    height: 2.5em;
+    padding: 0.5em;
+    transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+  }
+  .top-nav .menu > li {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5em 0;
+    width: 100%;
+    color: white;
+    height: 50px;
+  }
+  .top-nav .menu > li:not(:last-child) {
+    border-bottom: 1px solid #444;
+  }
+  .top-nav .slider-container {
+    height: 400px;
+  }
+}/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,136 @@
+$color_1: white;
+$color_2: #fff;
+$background-color_1: #000000;
+$background-color_2: #ccc;
+$background-color_3: #aaa;
+$background-color_4: #007bff;
+$background-color_5: #0069d9;
+
+section {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+.photo {
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	img {
+		width: 450px;
+		margin: 20px;
+	}
+}
+.avtobody {
+	background-color: $background-color_1;
+}
+.macan {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.taycan {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.panamera {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.cayman {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-top: 20px;
+}
+.photo-description {
+	text-align: center;
+	margin-top: 10px;
+	h2 {
+		font-size: 24px;
+		margin-bottom: 10px;
+		color: $color_1;
+		text-align: left;
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	p {
+		font-size: 20px;
+		line-height: 1.5;
+		margin-bottom: 20px;
+		color: $color_1;
+		text-align: left;
+		margin-left: 10px;
+	}
+}
+.btn {
+	display: inline-block;
+	background-color: $background-color_2;
+	color: $color_2;
+	padding: 10px 20px;
+	border-radius: 5px;
+	text-decoration: none;
+	margin-right: 10px;
+	&:hover {
+		background-color: $background-color_3;
+	}
+}
+.btn-primary {
+	background-color: $background-color_4;
+	&:hover {
+		background-color: $background-color_5;
+	}
+}
+h1 {
+	color: $color_1;
+	font-size: x-large;
+	text-align: center;
+	margin-top: 50px;
+}
+@media (max-width:500px) {
+	.photo {
+		img {
+			width: 300px;
+		}
+	}
+}
