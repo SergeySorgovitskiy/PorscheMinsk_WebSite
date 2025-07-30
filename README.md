@@ -88,3 +88,19 @@ This is an educational project that recreates a Porsche dealership website. The 
 
 This is a learning project created for educational purposes. All content and design elements are used for demonstration only. The project focuses on web development fundamentals and responsive design principles.
 
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/e7533a37-425b-45ac-9419-2624a45a8180" />
+
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/ed0bd861-d51a-4a22-bef5-e2ab25525849" />
+
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/b75918e1-105d-4019-8681-4338486f71fc" />
+
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/73e92755-2c14-427b-a81e-187b554276a4" />
+
+<img width="1280" height="663" alt="image" src="https://github.com/user-attachments/assets/2be0e50b-a186-4b6b-a387-65b6ee919952" />
+
+<img width="1280" height="719" alt="image" src="https://github.com/user-attachments/assets/1d636e75-6d92-4cfe-ac4a-a571a76ada14" />
+
+
+
+
+
